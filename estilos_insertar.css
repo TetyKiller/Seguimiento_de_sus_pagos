@@ -29,6 +29,9 @@ main{
     justify-content: space-around;
     flex-direction: column;
 }
+form *{
+    padding: 1em;
+}
 .form-insertar button{
     padding: 0.5em;
     border: none;
