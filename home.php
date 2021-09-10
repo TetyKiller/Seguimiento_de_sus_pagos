@@ -24,7 +24,9 @@
                 <p><?php echo $mostrar['nombre'] ?></p>
                 <p><?php echo $mostrar['fecha'] ?></p>
                 <p><?php echo $mostrar['catidad'] ?></p>
-                <button type="submit" name="inse" value="inse">Borrar</button>
+                    <form action="borrar.php" method="post">
+                    <button type="submit" name="dato" value=<?php echo $mostrar['id_pagos'] ?>>Borrar</button>
+                    </form>
                 </div>
                 <?php
                 }
