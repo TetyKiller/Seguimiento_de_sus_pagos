@@ -1,21 +1,18 @@
 <?php
-
-$nombre = $_POST['nombre'];
-$password = $_POST['contrasena'];
-
-		require_once 'conexion.php';
-  $conn = dbConnect();
- 
-  $consulta = mysqli_query ($conn, "SELECT * FROM usuarios WHERE name = '$nombre' AND password = '$password'");  
-
-
-  if(!$consulta){ 
-      echo mysqli_error($mysqli);
-      exit;
-  } 
-  if($nombre = mysqli_fetch_assoc($consulta)) {
-      $id = $nombre["id_user"];
-    } else{ 
-    }
-
+    include ("validacion_login.php")
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos_home.css">
+</head>
+    <body>
+        <main>
+
+        </main>
+    </body>
+</html>

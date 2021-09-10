@@ -15,6 +15,8 @@ $password = $_POST['contrasena'];
   } 
   if($nombre = mysqli_fetch_assoc($consulta)) {
       $id = $nombre["id_user"];
+      echo 'si';
     } else{ 
+        echo 'no';
     }
 ?>
