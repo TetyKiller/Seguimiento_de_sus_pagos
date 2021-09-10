@@ -13,20 +13,51 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 0.2em solid black;
+}
+header form button{
+    padding: 0em 1em;
+}
 main{
     width: 90%;
     height: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.opc button{
+    padding: 0em 1em;
+}
+.resu{
+    width: 90%;
+    display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .res{
-    width: 25%;
+    width: 30%;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: initial;
     border: 0.2em solid black;
+    margin: 0.5em;
 }
