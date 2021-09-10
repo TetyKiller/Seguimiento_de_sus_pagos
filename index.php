@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos_index.css">
 </head>
     <body>
-        <form class="form-inse" method="post" action="home.php" name="form-inse">
+        <form class="form-inse" method="post" action="validacion_login.php" name="form-inse">
                 <label>Usuario: </label>
                 <input type="text" name="nombre" pattern="[a-zA-Z0-9]+" required />
                 <label>Contrasena: </label>
